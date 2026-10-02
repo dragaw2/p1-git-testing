@@ -1,0 +1,22 @@
+//Fonts
+$f: Font, sans-serif;
+//Colors
+$cp: var(--primary-color);
+
+:root {
+  --primary-color: #2ecc71;
+  --secondary-color: #e74c3c;
+}
+
+@import "_normalize.scss";
+@import "_fonts.scss";
+@import "_base.scss";
+//@import "_simplebar.scss";
+//@import "_slick.scss";
+//@import "_slick-theme.scss";
+//@import "_fancybox.scss";
+
+@import "header.scss";
+
+
+@import "footer.scss";
